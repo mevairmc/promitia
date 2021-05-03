@@ -1,0 +1,42 @@
+.solutions {
+  width: 1260px;
+  height: 665px;
+  margin: 50px auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.solutions__tag {
+  width: 120px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  background: var(--gradient1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 20px;
+}
+
+.solutions__title {
+  font-size: 3rem;
+  margin: 24px 0;
+}
+
+.solutions__description {
+  margin-bottom: 80px;
+}
+
+.solutions__cases {
+  display: flex;
+  justify-content:space-around ;
+}
+
+.solutions__case img {
+  width: 281px;
+  height: 201px;
+}
+
+.solutions__case p {
+  margin-top: 8px;
+  text-align: center;
+}
