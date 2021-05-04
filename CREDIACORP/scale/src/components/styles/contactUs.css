@@ -7,8 +7,7 @@
 .contact__bg {
   position: absolute;
   top: 50%;
-  height: 25%;
-  background: linear-gradient(#fff,#fff 25%,#943cff 25.5%,#943cff 50%,#dd45d3 50.5%,#dd45d3 75%,#fd9d52 75.5%,#fd9d52);
+  background: linear-gradient(#05F2DB,#05F2DB 25%,#038C7F 25.5%,#038C7F 50%,#04D99D 50.5%,#04D99D 75%,#0DF205 75.5%,#0DF205);
   transform: skewY(-10deg);
   z-index: -2;
   width: 100%;
