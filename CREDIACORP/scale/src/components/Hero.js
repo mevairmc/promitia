@@ -7,9 +7,8 @@ function Hero() {
     <main>
       <div className="hero__container">
         <h1 className="hero__title">
-          <span className="hero__title--gradient1">Better<br/>
-          Software.</span><br/>
-          <span>Better Company.</span>
+          <span className="hero__title--gradient1">Tu lo imaginas</span><br/>
+          <span>Nosotros lo creamos.</span>
         </h1>
         <p className="hero__description">
             El mejor software te permite crecer rápidamente.<br/>

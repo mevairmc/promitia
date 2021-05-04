@@ -9,13 +9,14 @@ video {
 }
 
 .hero__container{
+  margin: 110px 0 140px;
   --tw-text-opacity: 1;
   color: rgba(255,255,255,var(--tw-text-opacity));
   width: 100%;
 }
 
 .hero__title {
-  font-size: 110px;
+  font-size: 100px;
   font-family: 'promitechligth';
   letter-spacing: 6px;
   line-height: 120px;
@@ -25,12 +26,13 @@ video {
 
 
 .hero__title--gradient1 {
+
   background: var(--gradient1);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-.hero__description{
+.hero__description {
   width: 1260px;
   margin: 50px auto;
   font-size: 20px;
@@ -38,7 +40,7 @@ video {
   font-weight: 400;
 }
 
-.hero__buttons{
+.hero__buttons {
   width: 1260px;
   margin: 0 auto;
 }
@@ -63,7 +65,7 @@ video {
   padding: 13px 2px;
   border-radius: 46px;
   overflow: hidden;
-  background: linear-gradient( 90deg,#d1aad7,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2) border-box;
+  background: var(--gradient1);
   color: #fff;
 }
 

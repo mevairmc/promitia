@@ -1,8 +1,9 @@
 .process__container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   width: 1216px;
-  margin: 100px  auto;
+  margin: 150px  auto;
 }
 
 .process__description {
@@ -17,6 +18,7 @@
   font-size: 4rem;
   font-weight: 400;
   line-height: 4.2rem;
+  width: 500px;
 }
 
 .process__tag img{

@@ -1,4 +1,4 @@
-.solutions {
+.services {
   width: 1260px;
   height: 665px;
   margin: 50px auto;
@@ -7,36 +7,37 @@
   flex-direction: column;
 }
 
-.solutions__tag {
-  width: 120px;
+.services__tag {
+  width: 124px;
   letter-spacing: 2px;
   font-weight: 400;
   background: var(--gradient1);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
   font-size: 20px;
 }
 
-.solutions__title {
+.services__title {
   font-size: 3rem;
   margin: 24px 0;
 }
 
-.solutions__description {
+.services__description {
   margin-bottom: 80px;
+  font-size: 16px;
 }
 
-.solutions__cases {
+.services__cases {
   display: flex;
   justify-content:space-around ;
 }
 
-.solutions__case img {
+.services__case img {
   width: 281px;
   height: 201px;
 }
 
-.solutions__case p {
+.services__case p {
   margin-top: 8px;
   text-align: center;
 }

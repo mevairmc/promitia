@@ -1,6 +1,6 @@
 :root{
   --color-white1: #fff;
-  --gradient1: linear-gradient(90deg,#d1aad7,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2);
+  --gradient1: linear-gradient(90deg, #05f2db, #04d99d 25.17%, #05f26c 50%, #0df205 73.09%,#bbdef2);
   --text-filled: transparent;
   --background-black: #000000;
 }
@@ -56,14 +56,18 @@ header {
 }
 
 
-.nav__links{
+.nav__links {
   display: flex;
   justify-content: space-around;
   width: 360px
 }
 
+.nav__links a:hover{
+  color: #04d99d;
+}
+
 .nav__logo{
-  width: 100px;
+  width: 170px;
 }
 
 

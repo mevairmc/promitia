@@ -6,10 +6,10 @@ import {
 } from "react-router-dom";
 //Components
 import Home from './pages/Home'
-import Logo from './images/small_logo.png'
+import Logo from './images/logo.png'
 import LinkedIn from './images/social/linkedin.svg'
 import WhatsApp from './images/social/whatsapp.svg'
-import Contact from './pages/ContactUs'
+
 //Styles
 import './App.css';
 
@@ -45,12 +45,7 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/solutions">
-            <solutions />
-          </Route>
+
           <Route path="/">
             <Home />
           </Route>
@@ -60,10 +55,5 @@ function App() {
   );
 }
 
-
-
-function solutions() {
-  return <h2>solutions</h2>;
-}
 
 export default App;
